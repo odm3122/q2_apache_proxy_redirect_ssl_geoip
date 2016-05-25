@@ -139,7 +139,7 @@ Configure&nbsp;http://odm3122.selfhost.de:80/</span></a></h1>
 
 <p><span lang=EN-GB style='font-size:10.0pt'>This Virtual Host redirects every
 request to the Odm3122.selfhost.de Website
-at&nbsp;http://www.odm3122.selfhost.de/.</span></p>
+at&nbsp;http://odm3122.selfhost.de/.</span></p>
 
 <u1:p></u1:p>
 
@@ -148,12 +148,9 @@ at&nbsp;http://www.odm3122.selfhost.de/.</span></p>
 <p class=MsoNormal><br>
 <br>
 </p>
-
-<u1:p></u1:p><pre><span lang=EN-GB>https://github.com/odm3122/q2_apache_proxy_redirect_ssl_geoip/blob/master/odm3122.conf<br>
-<br>
-<br>
-<br>
-</span></pre><u1:p></u1:p><pre><span lang=EN-GB>  </span>      ProxyRequests Off<span
+<a
+href="https://github.com/odm3122/q2_apache_proxy_redirect_ssl_geoip/blob/master/odm3122.conf"></u1:smarttagtype><u1:smarttagtype namespaceuri="urn:schemas-microsoft-com:office:smarttags" name="place">https://github.com/odm3122/q2_apache_proxy_redirect_ssl_geoip/blob/master/odm3122.conf</a></p>
+</pre><u1:p></u1:p><pre><span lang=EN-GB>  </span>      ProxyRequests Off<span
 lang=EN-GB> -&gt;  disables forward proxy requests.<br>
 <br>
 <br>
