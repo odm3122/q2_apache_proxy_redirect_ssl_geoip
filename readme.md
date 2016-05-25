@@ -5,74 +5,18 @@
 <meta http-equiv=Content-Type content="text/html; charset=utf-8">
 <meta name=Generator content="Microsoft Word 10 (filtered)">
 <title>readme.md</title>
-
-<style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin:0cm;
-	margin-bottom:.0001pt;
-	font-size:12.0pt;
-	font-family:"Times New Roman";}
-h1
-	{margin-right:0cm;
-	margin-left:0cm;
-	font-size:24.0pt;
-	font-family:"Times New Roman";
-	font-weight:bold;}
-h4
-	{margin-right:0cm;
-	margin-left:0cm;
-	font-size:12.0pt;
-	font-family:"Times New Roman";
-	font-weight:bold;}
-p.MsoToc1, li.MsoToc1, div.MsoToc1
-	{margin:0cm;
-	margin-bottom:.0001pt;
-	font-size:12.0pt;
-	font-family:"Times New Roman";}
-a:link, span.MsoHyperlink
-	{color:blue;
-	text-decoration:underline;}
-a:visited, span.MsoHyperlinkFollowed
-	{color:purple;
-	text-decoration:underline;}
-p
-	{margin-right:0cm;
-	margin-left:0cm;
-	font-size:12.0pt;
-	font-family:Arial;}
-code
-	{font-family:"Courier New";}
-pre
-	{margin:0cm;
-	margin-bottom:.0001pt;
-	font-size:10.0pt;
-	font-family:"Courier New";}
-@page Section1
-	{size:595.3pt 841.9pt;
-	margin:70.85pt 70.85pt 2.0cm 70.85pt;}
-div.Section1
-	{page:Section1;}
- /* List Definitions */
- ol
-	{margin-bottom:0cm;}
-ul
-	{margin-bottom:0cm;}
--->
-</style>
-
 </head>
 
 <body lang=DE-CH link=blue vlink=purple>
 
 <div class=Section1>
 
-<h1><span style='font-size:12.0pt;font-family:Calibri;color:black'><u1:smarttagtype namespaceuri="urn:schemas-microsoft-com:office:smarttags" name="place">Q2. Setup a web server. It can response on http on port 80 and will forward all http request to https (port 443). For example: GET http://server.fqdn/site/ will redirect to https://server.fqdn/site/ On this web server, it should response according to user’s GEOIP location. For example from Switzerland, it should response ”Welcome, user from Switzerland, your IP is X.Y.Z.0” Please provide simple installation guide, configuration and source code to the site</span></h1>
+Q2 - Setup a web server. It can response on http on port 80 and will forward all http request
+to https (port 443). For example: GET http://server.fqdn/site/ will redirect to
+https://server.fqdn/site/
+On this web server, it should response according to user’s GEOIP location. For example from
+Switzerland, it should response ”Welcome, user from Switzerland, your IP is X.Y.Z.0”
+Please provide simple installation guide, configuration and source code to the site.
 
 <p><br>
 Answer:</p>
